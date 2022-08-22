@@ -1,0 +1,14 @@
+{
+  "name": "chessproject",
+  "version": "1.0.0",
+  "description": "The game of chess",
+  "main": "app.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Zelimkhan",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
