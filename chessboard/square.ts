@@ -4,8 +4,9 @@ export class Square {
     name: string;
     /**
      * Single square
-     * @colour Black or White
-     * @name Example: A4
+     * @param Colour of the square White or Black (true or false)
+     * @param Name of the square
+     * @param Piece piece 
      */
     constructor(squareColour: boolean, squareName: string) {
         this.colour = squareColour;

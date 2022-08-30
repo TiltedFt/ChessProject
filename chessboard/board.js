@@ -9,6 +9,9 @@ class Board {
         Board.numbers = ns;
         this.result = Board.defineBoard();
     }
+    /**
+     * Returns list of Squares
+     */
     static defineBoard() {
         let tempList = new Array();
         let counter = 0;

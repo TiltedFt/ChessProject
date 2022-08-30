@@ -4,8 +4,8 @@ exports.Square = void 0;
 class Square {
     /**
      * Single square
-     * @colour Black or White
-     * @name Example: A4
+     * @param Colour of the square White or Black (true or false)
+     * @param Name of the square
      */
     constructor(squareColour, squareName) {
         this.colour = squareColour;

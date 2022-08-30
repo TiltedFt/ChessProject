@@ -3,7 +3,7 @@ import { Square } from './square';
 export class Board {
     static letters: Array<string> = new Array<string>(8);
     static numbers: Array<number> = new Array<number>(8);
-    private result: Array<Square> = new Array<Square>(64);
+    result: Array<Square> = new Array<Square>(64);
     
 
     constructor(ls: Array<string>, ns: Array<number>) {
